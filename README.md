@@ -9,7 +9,7 @@ Métodos principales del protocolo web HTTP: GET(lee), POST(escribe), PUT(actual
 Node JS es para crear nuestro propio servidor, el cual, atenderá nuestras peticiones que le enviemos desde nuestro cliente local
 
 Node JS no se satura con las peticiones por su forma de recibirlas en paralelo, frente a otros:
-![nodevsphp]()
+![nodevsphp](https://github.com/nacho-sf/back_clase_11/blob/main/assets/img/php_vs_node.jpg?raw=true)
 
 
 
