@@ -32,7 +32,21 @@ NPM (node packet manager): Gestor de paquetes o módulos(librerías) de node.
 
 
 
-Express es el módulo(librería) fundamental para hacer API's, donde vamos a montar nuestros servidores. Es nuestro framework para montar servidores. Para que funcione, este instala automáticamente 31 dependencias (Terminal: "npm i express"). Estas dependencias, a su vez, poeden instalar otras dependencias automáticamente.
+EXPRESS es el módulo(librería) fundamental para hacer API's, donde vamos a montar nuestros servidores. Es nuestro framework para montar servidores basados en Node. Para que funcione, este instala automáticamente 31 dependencias (Terminal: "npm i express"). Estas dependencias, a su vez, poeden instalar otras dependencias automáticamente. Ir a express.com y leer documentación...
 
 
+INICIALIZAR UN PROYECTO EN NODE
 
+-Se crea una carpeta donde se ubicarán los archivos del proyecto y se abre con Visual Code.
+
+-Se abre la terminal y se escribe "npm init" para inicializar un proyecto con Node.
+
+-Crea un objeto package.json con datos a introducir, relativos al proyecto.
+
+-Crear en Visual Code el archivo app.js y pegar el código "Hello world" (expressjs.com/como_empezar/hello_world)
+
+-Instalar el módulo Express. Terminal "npm i express". Se crea automáticamente el archivo package-lock.json y la carpeta node_modules.
+
+-Lanzar el servidor. Terminal "node app.js". En el navegador se podrá ver si funciona el servidor escribiendo "http://localhost:3000"
+
+-Ver el documento para más información...
